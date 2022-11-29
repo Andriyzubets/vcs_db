@@ -17,7 +17,7 @@ if(isset($_GET['return']) and $_GET['return'] == 1) {
 	exec("mysql -u {$user} --p{$pass} {$database} < {$dir}", $output);
 } else {
 	$output = 'sec';
-	#exec("mysqldump --user={$user} --password={$pass} --host={$host} {$database} --result-file={$dir} 2>&1", $output);
+	exec("mysqldump --user={$user} --password={$pass} --host={$host} {$database} --result-file={$dir} 2>&1", $output);
 }
 
 var_dump($output);
