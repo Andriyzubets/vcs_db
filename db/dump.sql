@@ -28,7 +28,7 @@ CREATE TABLE `first` (
   `region` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `q` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `first` (
 
 LOCK TABLES `first` WRITE;
 /*!40000 ALTER TABLE `first` DISABLE KEYS */;
-INSERT INTO `first` VALUES (1,'Company1','Kyiv',10),(2,'Company 2','Chernihiv',20);
+INSERT INTO `first` VALUES (1,'Company1','Kyiv',10),(2,'Company 2','Chernihiv',20),(3,'Company 3','Lviv',100);
 /*!40000 ALTER TABLE `first` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-29 16:14:54
+-- Dump completed on 2022-11-29 16:35:45
