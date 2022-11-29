@@ -4,3 +4,5 @@
 [29-Nov-2022 11:44:14 Europe/Helsinki] PHP Fatal error:  require_once(): Failed opening required '/home/lyrobhtv/prod.marinails.site/wp-settings.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/lyrobhtv/prod.marinails.site/wp-config.php on line 85
 [29-Nov-2022 11:44:17 Europe/Helsinki] PHP Warning:  require_once(/home/lyrobhtv/prod.marinails.site/wp-settings.php): failed to open stream: No such file or directory in /home/lyrobhtv/prod.marinails.site/wp-config.php on line 85
 [29-Nov-2022 11:44:17 Europe/Helsinki] PHP Fatal error:  require_once(): Failed opening required '/home/lyrobhtv/prod.marinails.site/wp-settings.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/lyrobhtv/prod.marinails.site/wp-config.php on line 85
+[29-Nov-2022 16:32:15 Europe/Helsinki] PHP Warning:  Invalid argument supplied for foreach() in /home/lyrobhtv/dev.marinails.site/dump.php on line 23
+[29-Nov-2022 16:32:51 Europe/Helsinki] PHP Warning:  Invalid argument supplied for foreach() in /home/lyrobhtv/dev.marinails.site/dump.php on line 23
