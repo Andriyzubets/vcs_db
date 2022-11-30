@@ -1,6 +1,6 @@
 -- MySQL dump 10.19  Distrib 10.3.37-MariaDB, for Linux (x86_64)
 --
--- Host: localhost    Database: lyrobhtv_www
+-- Host: localhost    Database: lyrobhtv_dev
 -- ------------------------------------------------------
 -- Server version	10.3.37-MariaDB
 
@@ -37,7 +37,7 @@ CREATE TABLE `first` (
 
 LOCK TABLES `first` WRITE;
 /*!40000 ALTER TABLE `first` DISABLE KEYS */;
-INSERT INTO `first` VALUES (1,'Company1','Kyiv',10),(2,'Company 2','Chernihiv',20),(3,'Company 3','Lviv',100);
+INSERT INTO `first` VALUES (1,'Company1','Kyiv',10),(2,'Company 2','Chernihiv',20),(3,'2 company 1','Vinnitsa',5);
 /*!40000 ALTER TABLE `first` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-29 16:35:45
+-- Dump completed on 2022-11-30  6:18:48
